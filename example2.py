@@ -1,6 +1,6 @@
-from final.data_source import DataSource
-from final.clustering_algorithm import ClusteringAlgorithm
-from final.pca_helper import PCAHelper
+from data_source import DataSource
+from clustering_algorithm import ClusteringAlgorithm
+from pca_helper import PCAHelper
 
 data = DataSource()
 data.read(5000)
